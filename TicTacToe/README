@@ -1,0 +1,5 @@
+This is a TicTacToe game
+on the initial screen we have 2 options : -singleplayer(against a bot)
+                                           -multiplayer(player vs player)
+                                           The algorithm used for the bot is MiniMax
+                                                                                    
