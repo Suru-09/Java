@@ -106,7 +106,7 @@ public class TicTacBoard {
                         gridPane.add(circle, finalI, finalJ);
                         GridPane.setHalignment(circle, HPos.CENTER);
 
-                        if(isSinglePlayer.get()){
+                        if(isSinglePlayer.get() && !TicTacGame.isOver()){
                             ArrayList<Line> arr = UtilityMethodsForBoard.drawLine();
 
                             TicTacGame.Move move = game.findBestMove();

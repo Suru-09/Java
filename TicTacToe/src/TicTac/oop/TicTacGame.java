@@ -8,7 +8,7 @@ import static TicTac.gui.UtilityMethodsForBoard.stopButtons;
 
 public class TicTacGame {
 
-    private int[][] table;
+    private static int[][] table;
     protected static int moveCounter = 0;
 
     public TicTacGame() {
@@ -70,7 +70,7 @@ public class TicTacGame {
 
 
 
-    public boolean isOver() {
+    public static boolean isOver() {
 
         for (int i = 0; i < 3; ++i)
             for (int j = 0; j < 3; ++j) {

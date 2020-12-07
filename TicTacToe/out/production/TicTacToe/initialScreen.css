@@ -1,0 +1,21 @@
+#VBoxBackground {
+    -fx-background-image: url("Images/darkbg.png");
+    -fx-background-size: contain;
+}
+
+.single {
+    -fx-background-color: #666561;
+    -fx-text-fill: whitesmoke;
+}
+
+.multi {
+    -fx-background-color: #666561;
+    -fx-text-fill: whitesmoke;
+}
+
+.title {
+    -fx-font: 32px Tahoma;
+    -fx-text-fill: linear-gradient(from 0% 0% to 100% 200%, repeat, purple 0%, mediumpurple 50%);
+    -fx-stroke: black;
+    -fx-stroke-width: 1;
+}
