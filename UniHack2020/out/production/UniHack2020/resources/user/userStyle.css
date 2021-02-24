@@ -1,0 +1,51 @@
+.accSetButton{
+    -fx-background-color: #d8a764;
+    -fx-text-fill: #000000;
+    -fx-font-size: 16px;
+    -fx-background-radius: 50px;
+}
+
+.logoutButton{
+    -fx-background-color: #d8a764;
+    -fx-text-fill: #000000;
+    -fx-font-size: 16px;
+    -fx-background-radius: 50px;
+}
+
+.button:pressed:hover {
+    -fx-scale-y: 0.9;
+    -fx-scale-x: 0.9;
+}
+
+.button:hover {
+    -fx-background-color: #cbc4b8;
+    -fx-scale-y: 1.1;
+}
+
+.borderTop{
+    -fx-background-color: #a7a4a4;
+}
+
+.scrollVBox{
+    -fx-border-width: 0;
+}
+
+.scrollPane{
+    -fx-border-width: 0;
+    -fx-background-color: transparent;
+    -fx-background : #d07361;
+}
+
+.scroll-bar:vertical{
+    -fx-background-color: #d8a764;
+    -fx-background-radius: 20px;
+}
+
+.scroll-bar:vertical .thumb{
+    -fx-background-color: #282828;
+    -fx-background-radius: 20px;
+}
+
+.region_separator{
+    -fx-background-color: derive(#d07361,-20%);
+}
